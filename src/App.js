@@ -17,6 +17,7 @@ function App() {
   const [totalTurn, setTotalTurn] = React.useState(getCount());
   const [numOfTurn, setNumOfTurn] = React.useState(1);
   const [timer, setTimer] = React.useState(0);
+  const [disableSlider, setDisableSlider] = React.useState(false);
 
   function getCount() {
     let workCount = settings.exercise * settings.round;
@@ -114,6 +115,7 @@ function App() {
 
   function toggleButton() {
     setPause((prevPause) => !prevPause);
+    setDisableSlider(true);
   }
 
   return (
@@ -138,6 +140,7 @@ function App() {
           handleChange={handleChange}
           name="work"
           timeFormat={timeFormat}
+          disableSlider={disableSlider}
         />
         <Slider
           id="restRange"
@@ -149,6 +152,7 @@ function App() {
           handleChange={handleChange}
           name="rest"
           timeFormat={timeFormat}
+          disableSlider={disableSlider}
         />
         <Slider
           id="exerciseRange"
@@ -160,6 +164,7 @@ function App() {
           handleChange={handleChange}
           name="exercise"
           timeFormat={timeFormat}
+          disableSlider={disableSlider}
         />
         <Slider
           id="roundRange"
@@ -171,6 +176,7 @@ function App() {
           handleChange={handleChange}
           name="round"
           timeFormat={timeFormat}
+          disableSlider={disableSlider}
         />
         <Slider
           id="resetRange"
@@ -182,6 +188,7 @@ function App() {
           handleChange={handleChange}
           name="reset"
           timeFormat={timeFormat}
+          disableSlider={disableSlider}
         />
       </main>
     </div>
