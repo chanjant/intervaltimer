@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chanjant/intervaltimer.git/static/css/main.9cfe1cd3.css",
-    "main.js": "/chanjant/intervaltimer.git/static/js/main.3fe50176.js",
-    "static/js/787.8e9e615b.chunk.js": "/chanjant/intervaltimer.git/static/js/787.8e9e615b.chunk.js",
-    "index.html": "/chanjant/intervaltimer.git/index.html",
-    "main.9cfe1cd3.css.map": "/chanjant/intervaltimer.git/static/css/main.9cfe1cd3.css.map",
-    "main.3fe50176.js.map": "/chanjant/intervaltimer.git/static/js/main.3fe50176.js.map",
-    "787.8e9e615b.chunk.js.map": "/chanjant/intervaltimer.git/static/js/787.8e9e615b.chunk.js.map"
+    "main.css": "/intervaltimer/static/css/main.9cfe1cd3.css",
+    "main.js": "/intervaltimer/static/js/main.d513ccd2.js",
+    "static/js/787.8e9e615b.chunk.js": "/intervaltimer/static/js/787.8e9e615b.chunk.js",
+    "index.html": "/intervaltimer/index.html",
+    "main.9cfe1cd3.css.map": "/intervaltimer/static/css/main.9cfe1cd3.css.map",
+    "main.d513ccd2.js.map": "/intervaltimer/static/js/main.d513ccd2.js.map",
+    "787.8e9e615b.chunk.js.map": "/intervaltimer/static/js/787.8e9e615b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cfe1cd3.css",
-    "static/js/main.3fe50176.js"
+    "static/js/main.d513ccd2.js"
   ]
 }
